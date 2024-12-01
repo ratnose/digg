@@ -77,6 +77,10 @@ Test digg-frontend With BDD Syntax
     Then a "error message 1" should be displayed above the "Delete" button
 ```
 
+
+Jag inser nu att jag skrivit testfallen på engelska... jag har så svårt att lära om Cucumber till svenska.
+Hoppas verkligen inte att det gör något.
+
 * Jag vill skilja på automatiska tester och tester.
 Krasst skulle jag vilja kalla dom autmatiska kontroller och undersökande tester.
 Det som automatiska kontroller möjligör att frigöra tid så människan kan få excellera på det den är bra på. Tänka utanför boxen sas.
