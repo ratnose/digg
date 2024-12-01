@@ -31,7 +31,9 @@ Det vi kommer bygga ut med tiden är de sk keywords för Gherkin, desto länge v
 Jag tror ni, som jag skulle inse magin att skriva kraven enligt Cucumber dokument formattering. Sedan lägga dokumentet i en mapp, som sedan plockas upp och körs som ett automatisk test. Sista jag jobbade så här, lät vi systemet köra Gherkin testerna på natten och på morgonen när vi kom fanns resultatet i form av bubblor på en skärm. Lunget på morgonen när det bara var gröna bubblor.
 
 Ett exempel:
+
 ** Settings **
+
 Resource - Digg_keywords.resource
 
 ** Test Cases **
