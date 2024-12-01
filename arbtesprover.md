@@ -32,7 +32,7 @@ Jag tror ni, som jag skulle inse magin att skriva kraven enligt Cucumber dokumen
 
 Ett exempel:
 ** Settings **
-Resource        Digg_keywords.resource
+Resource - Digg_keywords.resource
 
 ** Test Cases **
 ```
