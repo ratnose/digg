@@ -1,4 +1,5 @@
 Att kontrollera ett publikt API
+
 De automatiska testerna* ska vara på den nivå att de ska kunna köras med en periodicitet, så vi snabbt kan upptäcka att API inte svarar eller fungerar som tänkt.
 
 Jag är en testare som är helt övertygad om att tester* och automatiska tester* är två olika saker och båda behvövs för olika saker.
@@ -30,10 +31,11 @@ Det vi kommer bygga ut med tiden är de sk keywords för Gherkin, desto länge v
 Jag tror ni, som jag skulle inse magin att skriva kraven enligt Cucumber dokument formattering. Sedan lägga dokumentet i en mapp, som sedan plockas upp och körs som ett automatisk test. Sista jag jobbade så här, lät vi systemet köra Gherkin testerna på natten och på morgonen när vi kom fanns resultatet i form av bubblor på en skärm. Lunget på morgonen när det bara var gröna bubblor.
 
 Ett exempel:
-*** Settings ***
+** Settings **
 Resource        Digg_keywords.resource
 
-*** Test Cases ***
+** Test Cases **
+```
 Test PuliktAPI With BDD Syntax
     Given PubiktAPI Is Running
     When we add a user using json
@@ -71,7 +73,7 @@ Test digg-frontend With BDD Syntax
     And pushed the button "Delete"
     Then if the id is not found
     Then a "error message 1" should be displayed above the "Delete" button
-
+```
 
 * Jag vill skilja på automatiska tester och tester.
 Krasst skulle jag vilja kalla dom autmatiska kontroller och undersökande tester.
